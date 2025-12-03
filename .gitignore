@@ -1,3 +1,53 @@
-.venv
-
+# Byte-compiled / optimized / compiled files
+__pycache__/
 *.pyc
+*.pyd
+*.pyo
+*.egg-info/
+.pytest_cache/
+
+# Virtual environment
+venv/
+env/
+.venv/
+.direnv/
+
+# Editor/IDE specific files
+.vscode/
+.idea/
+*.swp
+*.bak
+*.swo
+
+# OS generated files
+.DS_Store
+.Trashes
+Thumbs.db
+
+# Logs and databases
+*.log
+*.sqlite3
+db.sqlite3
+
+# Configuration files
+*.env
+.env.*
+instance/
+
+# Test and coverage reports
+htmlcov/
+.coverage
+.coverage.*
+nosetests.xml
+coverage.xml
+
+# PyInstaller
+*.manifest
+*.spec
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# Other temporary files
+*.tmp
+*.temp
